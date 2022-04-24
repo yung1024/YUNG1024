@@ -1,0 +1,38 @@
+p {
+font-size:20px;
+  color: red;
+  width: 600px;
+  border: 1px solid black;
+  text-align:center
+}
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 20px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Hanalei Fill', sans-serif;
+  background-color:#6fa8dc
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+  text-align:center
+}
+p, li {
+
+  /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 3;
+  letter-spacing: 1px;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+img{
+	display:block;
+	margin:0 auto;
+}
